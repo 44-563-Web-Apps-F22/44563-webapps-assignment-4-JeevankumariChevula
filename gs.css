@@ -69,10 +69,12 @@ th {
         padding: 0;
         overflow: hidden;
         background-color: rgba(147, 181, 88, 0.63);
+
       }
       
-      li {
+     li {
         float: left;
+        display: inline;
       }
       
       li a {
@@ -81,11 +83,13 @@ th {
         text-align: center;
         padding: 15px 18px;
         text-decoration: none;
+        
       }
       
       li a:hover {
         background-color:rgb(226, 43, 165);
+        display:inline;
       }
 b.hover{
     background-color:burlywood;   
-}
+} 
